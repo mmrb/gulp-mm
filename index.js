@@ -9,7 +9,6 @@ var watch = require('gulp-watch');
 var less = require('gulp-less');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
-var htmlmin = require('gulp-minify-html');
 
 var uglify = require('./lib/uglify');
 var server = require('./lib/server');
@@ -40,10 +39,6 @@ var mm = {
      * uglify
      */
     uglify: uglify,
-    /**
-     * html min
-     */
-    htmlmin: htmlmin,
     /**
      * server with socket
      */
