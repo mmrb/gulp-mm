@@ -3,11 +3,9 @@ wechat web rebuild team dev tool
 
 **installation**
 
-```
+```shell
 npm install -g gulp
-
 npm install --save-dev gulp gulp-mm
-
 ```
 
 **usage**
