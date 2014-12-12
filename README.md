@@ -14,8 +14,7 @@ npm install --save-dev gulp gulp-mm
 
 create `gulpfile.js`
 
-```
-
+```javascript
 var gulp = require('gulp');
 var mm = require('gulp-mm');
 
@@ -39,5 +38,4 @@ gulp.task('server', function(){
 });
 
 gulp.task('default', ['build', 'server']);
-
 ```
