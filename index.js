@@ -2,9 +2,6 @@
  * Created by jfengjiang on 2014/12/5.
  */
 
-var through = require('through2');
-var merge = require('deepmerge');
-
 var watch = require('gulp-watch');
 var less = require('gulp-less');
 var rename = require('gulp-rename');
