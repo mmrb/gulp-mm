@@ -12,6 +12,7 @@ var server = require('./lib/server');
 var inline = require('./lib/inline');
 var optimization = require('./lib/optimization');
 var resolve = require('./lib/resolve');
+var live = require('./lib/live');
 
 
 
@@ -51,7 +52,11 @@ var mm = {
     /**
      * resolve
      */
-    resolve: resolve
+    resolve: resolve,
+    /**
+     * live
+     */
+    live: live
 };
 
 
