@@ -14,6 +14,7 @@ var optimization = require('./lib/optimization');
 var resolve = require('./lib/resolve');
 var live = require('./lib/live');
 var compile = require('./lib/compile');
+var sprite = require('./lib/sprite');
 
 
 
@@ -61,7 +62,11 @@ var mm = {
     /**
      * compile
      */
-    compile: compile
+    compile: compile,
+    /**
+     * sprite
+     */
+    sprite: sprite
 };
 
 
