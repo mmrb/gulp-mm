@@ -1,6 +1,6 @@
 {
   "name": "gulp-mm",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,6 @@
     "lodash": "^2.4.1",
     "node-images": "^1.5.5",
     "socket.io": "^1.2.1",
-    "socket.io-client": "^1.2.1",
-    "socket.io-proxy": "^1.0.3",
-    "sync": "^0.2.3",
     "through2": "^0.6.3",
     "uglify-js": "^2.4.15"
   }
