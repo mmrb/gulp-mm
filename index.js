@@ -15,6 +15,7 @@ var resolve = require('./lib/resolve');
 var live = require('./lib/live');
 var compile = require('./lib/compile');
 var sprite = require('./lib/sprite');
+var translate = require('./lib/translate');
 
 
 
@@ -66,7 +67,11 @@ var mm = {
     /**
      * sprite
      */
-    sprite: sprite
+    sprite: sprite,
+    /**
+     * translate
+     */
+    translate: translate
 };
 
 
