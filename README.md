@@ -77,6 +77,11 @@ $(function(){
 
 
 ```css
-/* background's image will be replaced with icon's base64 format*/
-.icon_new{ display: inline-block; width: 16px; height: 16px; background: url("../images/icon/new.png?__inline"); }
+.icon_new{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    /* background's image will be replaced with icon's base64 format*/
+    background: url("../images/icon/new.png?__inline");
+}
 ```
