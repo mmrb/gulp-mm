@@ -66,7 +66,17 @@ you can import other file in your `html`, or `javascript` file with `inline` plu
 ```
 
 ```javascript
+// it will be replaced with content of zepto.js here
+__inline("../lib/zepto.js");
+
+$(function(){
+    console.log('hello world!');
+});
+
+```
 
 
-
+```css
+/* background's image will be replaced with icon's base64 format*/
+.icon_new{ display: inline-block; width: 16px; height: 16px; background: url("../images/icon/new.png?__inline"); }
 ```
