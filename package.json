@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "art-template": "~3.0.3",
+    "async-replace": "^1.0.0",
     "clean-css": "^2.2.20",
     "deepmerge": "^0.2.7",
     "express": "^4.10.4",
