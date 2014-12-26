@@ -20,6 +20,7 @@
     "gulp-util": "^3.0.1",
     "gulp-watch": "^3.0.0",
     "html-minifier": "^0.6.9",
+    "jshint": "^2.5.11",
     "less": "^2.1.1",
     "lodash": "^2.4.1",
     "node-images": "^1.5.5",
