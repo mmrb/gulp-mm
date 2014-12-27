@@ -26,6 +26,7 @@
     "node-images": "^1.5.5",
     "socket.io": "^1.2.1",
     "through2": "^0.6.3",
-    "uglify-js": "^2.4.15"
+    "uglify-js": "^2.4.15",
+    "nunjucks": "~1.1.0"
   }
 }
