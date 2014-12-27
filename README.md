@@ -40,6 +40,19 @@ gulp.task('default', ['build', 'server']);
 
 ###api
 
+**server**
+
+express + socket.io(for live reload)
+
+```javascript
+
+mm.server.start({root: __dirname + '/preview'});
+
+// when file change
+mm.server.emit('change');
+
+```
+
 **inline**
 
 you can import other file in your `html`, or `javascript` file with `inline` plugin, for example:
@@ -84,4 +97,41 @@ $(function(){
     /* background's image will be replaced with icon's base64 format*/
     background: url("../images/icon/new.png?__inline");
 }
+```
+
+**sprite**
+
+the icon images will be concat to one image, which is named as current css file plus '_z.png', for example: icon_z.png.
+
+```css
+
+/* icon.css */
+
+.icon_new{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    /* here will be replace sprite image path, and auto set the background-position */
+    background: url("../images/icon/new.png?__sprite");
+}
+
+.icon_add{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon/add.png?__sprite");
+}
+
+.icon_search{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    /* here will be replace @2x sprite image path, and auto set the background-position and background-size*/
+    /* for ratina */
+    background: url("../images/icon/add@2x.png?__sprite");
+}
+
 ```
